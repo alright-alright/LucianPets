@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run setup:*)",
+      "Read(//Users/aerynwhite/Documents/GitHub/**)",
+      "Bash(./manage-registry.sh:*)",
+      "Bash(npm config set:*)",
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(git add:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm start)",
+      "Bash(npm run server:*)",
+      "Bash(curl:*)",
+      "Bash(git pull:*)",
+      "Bash(git fetch:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(cat:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git init:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
